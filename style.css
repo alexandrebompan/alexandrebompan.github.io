@@ -1,0 +1,83 @@
+/* Fonte e reset */
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: #f4f2ff;
+    color: #1e1b2e;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: #4b3fff; /* azul roxo */
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header nav a {
+    margin-left: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* Seções */
+.section {
+    padding: 70px 40px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.hero {
+    text-align: center;
+    background: linear-gradient(135deg, #4b3fff, #8a7bff);
+    color: white;
+    border-radius: 12px;
+    margin-top: 40px;
+}
+
+.light {
+    background: white;
+    border-radius: 12px;
+}
+
+/* Documentações */
+.docs-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 25px;
+}
+
+.doc-item {
+    background: #e8e6ff;
+    padding: 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #1e1b2e;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+.doc-item:hover {
+    background: #d4cffc;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background: #4b3fff;
+    color: #fff;
+}
